@@ -1,0 +1,39 @@
+.header {
+    padding: 40px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo{
+    cursor: pointer;
+  }
+  .items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    ul {
+      display: flex;
+      gap: 34px;
+      li {
+        color: #b8becd;
+        cursor: pointer;
+        list-style: none;
+        color: #b8becd;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        &:hover {
+          color: #202336;
+          transition: 300ms;
+        }
+      }
+    }
+  }
+  .header__btns{
+    display: flex;
+    gap: 18px;
+  }
+}

@@ -1,0 +1,57 @@
+.hero {
+    width: 100%;
+    padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    &--top {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      h2 {
+        width: 365px;
+        color: #202336;
+        font-family: "Playfair Display";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+      }
+      p {
+        padding-top: px;
+        color: #202336;
+        font-family: Inter;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+      }
+      div {
+        padding-top: -5px;
+        width: 32px;
+        border: 2px solid black;
+      }
+    }
+    &--bottom {
+      padding-top: 48px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      .options {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        select {
+          width: 220px;
+          height: 52px;
+          border-radius: 8px;
+          padding: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+}

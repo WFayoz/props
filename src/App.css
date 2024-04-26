@@ -1,0 +1,18 @@
+.propBtn {
+  cursor: pointer;
+  width: 132px;
+  height: 44px;
+  border-radius: 8px;
+  background-color: #fb8f1d;
+  border: 2px solid #fb8f1d;
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+}
+.propBtn:hover{
+    transition: 300ms;
+    background-color: #fff;
+    color: #fb8f1d;
+}
